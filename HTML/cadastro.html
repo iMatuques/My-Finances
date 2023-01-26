@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Finances</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+    <link rel="shortcut icon" href="../Imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/toggle.css">
+    <link rel="stylesheet" href="../CSS/darkmode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../Imagens/logo.png"></a>
+            <img src="../Imagens/logo.png" alt="Logo">
+            <ul>
+                <li>
+                    <div class="user">
+                        <div class="user.img">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </div>
+                        <span class="register">
+                            <a href="./login.html">Login</a>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+            <div class="container-darkmode">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class='fas fa-sun'></i>
+                    <div class='ball'>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+
+
+    <div class="box">
+
+        <div class="text-cadastro">
+            <h3>Registrar-se</h3>
+        </div>
+
+        <hr style="width: 99%;border: 0.1px solid whitesmoke;" />
+        <br>
+
+        <fieldset>
+            <div class="dados-user">
+                <div class="icons">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <input type="text" name="name" id="name" class="inputUser" placeholder="Nome" required>
+
+            </div>
+
+            <div class="dados-user">
+                <div class="icons">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <input type="email" name="email" id="email" placeholder="E-mail" class="inputUser" required>
+
+            </div>
+
+            <div class="card-form">
+                <div class="form-user">
+                    <div class="icons">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+
+                    <input type="numeric" id="cellphone" placeholder="Telefone celular" class="inputUser" required>
+
+                </div>
+
+                <div class="form-user">
+                    <div class="icons">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+
+                    <input type="numeric" id="renda" placeholder="Renda" class="inputUser">
+
+                </div>
+            </div>
+
+            <div class="card-form">
+                <div class="form-user">
+                    <div class="icons">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+
+                    <input type="text" id="cpf" class="inputUser" required placeholder="CPF">
+
+                </div>
+
+                <div class="form-user">
+                    <div class="icons">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <input type="numeric" id="cep" class="inputUser" placeholder="CEP" required>
+
+                </div>
+            </div>
+
+            <div class="text-password">
+                <p>Senha composta por 6 números.</p>
+            </div>
+
+            <div class="card-form">
+                <div class="form-user">
+                    <div class="icons">
+                        <i class="fas fa-lock"></i>
+                    </div>
+
+                    <input type="numeric" id="password" class="inputUser" placeholder="Senha" maxlength="6"
+                        minlength="6" required>
+
+                </div>
+                <div class="form-user">
+                    <div class="icons">
+                        <i class="fas fa-lock"></i>
+                    </div>
+
+                    <input type="numeric" id="password" class="inputUser" placeholder="Confirme sua senha" maxlength="6"
+                        minlength="6" required>
+
+                </div>
+            </div>
+
+            <div class="check">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <span style="color: #8898AA; font-size: 15px;">Eu concordo com os termos de <strong
+                        style="color: #5e72e4;">Política</strong> e <strong
+                        style="color: #5e72e4;">Privacidade</strong></span>
+            </div>
+
+            <div class="buttom">
+                <a href="./landing.html">
+                    <div class="text-buttom">Registrar</div>
+                </a>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="bg-login"></div>
+
+    <div class="sub-footer">
+        <footer class="container-footer">
+
+            <span class="roover">© 2023 Copyright - <a href="./landing.html">My Finances</a></span>
+
+            <div class="network-footer">
+                <i class="fa-brands fa-instagram"></i>&nbsp;
+                <p>My Finances</p>
+            </div>
+
+            <div class="network-footer">
+                <i class="fa-brands fa-linkedin"></i>&nbsp;
+                <p>My Finances</p>
+            </div>
+            <p>myfinaces@gmail.com</p>
+    </div>
+
+    </footer>
+    </div>
+
+    <script type="text/javascript">
+        const checkbox = document.getElementById("checkbox");
+        checkbox.addEventListener("change", () => {
+            document.body.classList.toggle("dark-mode")
+        })
+    </script>
+
+</body>
+
+</html>

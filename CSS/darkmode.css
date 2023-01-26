@@ -1,0 +1,46 @@
+:root {
+    --bg-darkmode: #121212;
+    --bg-input-darkmode: #0e0e0e;
+    --bg-font-darkmode: #9b9b9b;
+    --bg-line-darkmode: #565656;
+    --bg-text-darkmode: #9b9b9b;
+}
+
+.container-darkmode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dark-mode .box {
+    background-color: var(--bg-darkmode) !important;
+}
+
+.dark-mode .text-login {
+    color: var(--bg-font-darkmode) !important;
+}
+
+.dark-mode .icon {
+    color: var(--bg-font-darkmode) !important;
+}
+
+.dark-mode hr {
+    border-color: var(--bg-line-darkmode) !important;
+}
+
+.dark-mode .inputUser {
+    color:var(--bg-font-darkmode) !important;
+    background-color: transparent;
+}
+
+.dark-mode .text-cadastro {
+    color: var(--bg-text-darkmode) !important;
+}
+
+.dark-mode .dados-user, .dark-mode .form-user {
+    background-color: #121212;
+}
+
+.dark-mode .icons {
+    background-color: transparent;
+}

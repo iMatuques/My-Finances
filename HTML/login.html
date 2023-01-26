@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Imagens/logo.png" type="image/x-icon">
+    <title>My Finances</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/toggle.css">
+    <link rel="stylesheet" href="../CSS/darkmode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Header é sempre no topo semânticamente falando -->
+    <header>
+        <nav>
+            <a href="../Imagens/logo.png"></a>
+            <img src="../Imagens/logo.png" alt="Logo">
+            <ul>
+                <li>
+                    <div class="user">
+                        <div class="user.img">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <span class="register">
+                            <a href="./cadastro.html">Criar conta</a>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+            <div class="container-darkmode">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class='fas fa-sun'></i>
+                    <div class='ball'>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+
+    <!-- Depois vem o conteúdo -->
+
+    <div class="text-one">
+        <h1><b>Bem Vindo!</b></h1>
+    </div>
+    <br>
+    <div class="text-three">
+        <p><strong style="font-weight: bolder;">My finances</strong> é a plataforma ideal para gestão de suas finanças!
+        </p>
+    </div>
+
+    <div class="box">
+
+        <div class="text-login">
+            <h3>Faça seu login</h3>
+        </div>
+        <hr style="width: 99%;border: 0.1px solid whitesmoke;" />
+        <br>
+
+        <fieldset>
+            <div class="inputIcon">
+
+                <div class="icon">
+                    <i class="fas fa-id-card"></i>
+                </div>
+
+                <div>
+                    <input type="text" name="text" id="cpf" class="inputUser" required placeholder="CPF">
+                </div>
+            </div>
+            <br>
+
+            <div class="inputIcon">
+                <div class="icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div><input type="password" name="password" id="password" inputmode="numeric" required class="inputUser" 
+                        maxlength="6" minlength="6" placeholder="Senha" required ></div>
+            </div>
+            <P style="color:#8898AA;font-size: 12.8px;text-align: start;width: 100%;margin-top: 4px;">Senha de 6 números.</P>
+
+            <div class="buttom">
+                    <a href="./landing.html">
+                        <div class="text-buttom">Entrar</div>
+                    </a>
+            </div>
+
+        </fieldset>
+    </div>
+    <div class="bg-login"></div>
+
+    <div class="sub-footer">
+        <footer class="container-footer">
+
+            <span class="roover">© 2023 Copyright - <a href="./landing.html">My Finances</a></span>
+    
+            <div class="network-footer">
+                <i class="fa-brands fa-instagram"></i>&nbsp;
+                <p>My Finances</p>
+            </div>
+    
+            <div class="network-footer">
+                <i class="fa-brands fa-linkedin"></i>&nbsp;
+                <p>My Finances</p>
+            </div>
+    
+            <div class="email-footer">
+                <a href="mailto:myfinaces@gmail.com">myfinaces@gmail.com</a>
+            </div>
+    
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        const checkbox = document.getElementById("checkbox");
+        checkbox.addEventListener("change", () => {
+            document.body.classList.toggle("dark-mode")
+        })
+    </script>
+</body>
+
+</html>

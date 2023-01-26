@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.myfinances-logo {
+    width: auto;
+    height: 80px; 
+    display: flex;
+}
+
+body {
+    background-color: rgb(230 246 254);
+    font-family: "Open Sans", sans-serif;
+}
+
+.initial {
+    width: 100%;
+    margin-top: 1.8rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+a {
+    color: #2d3748;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-center {
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 4rem;
+
+}
+
+.text-primary {
+    color: #1a202c;
+}
+
+a:hover {
+    color: #03a9f4;
+}
+
+
+.text-secundary {
+    color: #03a9f4;
+}
+
+.small-text {
+    color: #718096;
+    align-items: center;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 4rem;
+}
+
+.director-text {
+    padding-bottom: 8rem;
+    padding-top: 5rem;
+}
+
+.buttom-initial {
+    display: flex;
+    justify-content: center;
+}
+
+.buttom {
+    color: white;
+    background-color: #03a9f4;
+    border: none;
+    padding: 1rem;
+    font-size: 1.15rem;
+    border-radius: .375rem;
+    width: 150px;
+}
+
+.title-x1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #1a202c;
+    margin-bottom: 1.5rem;
+}
+
+.text-x1 {
+    align-items: center;
+    font-size: 1.2rem;
+    color: #718096;
+    width: 800px;
+    text-align: center;
+}
+
+.items-center-t1, .items-center-t2, .items-center-t3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5em;
+}
+
+.title-center {
+    font-size: 1.875rem;
+    color: #1a202c;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.body-text {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    color: #718096;
+    width: 450px;
+    text-align: center;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.image-feature {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.bg-white {
+    background: #fff;
+    width: 100%;
+    height: calc(100vh/1.5);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 60px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.box-blue {
+    background-color: rgb(230 246 254);
+    display: flex;
+    justify-content: center;
+    border-radius: .375rem;
+    padding: 3rem;
+}
+
+.text-box-gray {
+    color: #1a202c;
+    text-align: left;
+}
+
+.buttom-box {
+    color: white;
+    background-color: #03a9f4;
+    padding: 1rem;
+    border-radius: .375rem;
+    justify-content: center;
+    display: flex;
+    width: 75%;
+    margin-left: 1.5rem;
+}
+
+.text-box-blue {
+    color: #03a9f4;
+    text-align: left;
+}
+
+.text-box-gray-text-box-blue {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.logo-footer {
+    width: auto;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    color: #718096;
+    font-size: 14px;
+}
+
+.text-copyright {
+    font-weight: bolder;
+}
+
+.container-footer {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+}
+
+.father {
+    background-color: #fff; 
+  }
