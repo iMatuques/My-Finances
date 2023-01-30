@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Esse projeto foi inspirado na plataforma <a href="https://rocketseat.com.br/">Mexpenses</a>, um software focado no controle financeiro pessoal, desenvolvi as páginas de Login, Registro de Usuário e Landing Page.
+Esse projeto foi inspirado na plataforma <a href="[https://rocketseat.com.br/](https://app.mexpenses.com.br/#/auth/register)">Mexpenses</a>, um software focado no controle financeiro pessoal, desenvolvi as páginas de Login, Registro de Usuário e Landing Page.
 
 
 <p align="center">
