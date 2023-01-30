@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Esse projeto foi inspirado na plataforma Mexpenses, que é uma plataforma focada no controle financeiro pessoal, desenvolvi as páginas de Login, Registro de Usuário e Landing Page.
+Esse projeto foi inspirado na plataforma <a href="https://rocketseat.com.br/">Mexpenses</a>, um software focado no controle financeiro pessoal, desenvolvi as páginas de Login, Registro de Usuário e Landing Page.
 
 
 <p align="center">
@@ -37,3 +37,5 @@ Esse projeto foi inspirado na plataforma Mexpenses, que é uma plataforma focada
 <p align="center">
 <img alt="" src="https://cdn.discordapp.com/attachments/930441255140352040/1069594681446498354/landing.png" width="80%">
 </p>
+
+
